@@ -1,2 +1,2 @@
 # simple-midC-piano
-simple single octave (starting from c4) piano using css and js.
+simple single octave piano (starting from c4) using css and js.
