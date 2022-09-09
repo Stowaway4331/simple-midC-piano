@@ -8,7 +8,13 @@ body{
   width: 100%;
   height: 75%;
   margin:10em auto;
-  background: linear-gradient(to bottom right, black, lightgrey);
+  background: linear-gradient(
+    -45deg,
+    #A9A9A9 0%,
+    #A9A9A9 50%,
+    #818589 50%,
+    #818589 100%
+  );
   display: grid;
   grid-template: 1fr / 1fr;
   place-items: center;
@@ -28,12 +34,12 @@ body{
     border-spacing: 5px; 
     background: #191919;
   }
-  .keys{
+  .wkeys{
     border-radius: 5px;
     display: table-cell;
     background: #FFFFFF;
   }
-.keys:active{
+.wkeys:active{
   background: rgb(230,230,230)
 }
   .blackKeys1{
